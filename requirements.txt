@@ -1,0 +1,4 @@
+# Placeholder for project dependencies
+streamlit
+requests
+matplotlib
