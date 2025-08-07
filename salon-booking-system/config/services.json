@@ -1,0 +1,288 @@
+{
+  "services": {
+    "haircut": {
+      "name": "Haircut",
+      "description": "Professional hair cutting and styling",
+      "duration": 60,
+      "price": 50,
+      "category": "hair",
+      "businessTypes": ["hair-salon", "barbershop"],
+      "requirements": ["consultation"],
+      "addOns": ["wash", "styling", "treatment"]
+    },
+    "hair-color": {
+      "name": "Hair Color",
+      "description": "Full hair coloring service",
+      "duration": 120,
+      "price": 120,
+      "category": "hair",
+      "businessTypes": ["hair-salon"],
+      "requirements": ["patch-test", "consultation"],
+      "addOns": ["cut", "styling", "treatment"]
+    },
+    "highlights": {
+      "name": "Highlights",
+      "description": "Hair highlighting and lowlighting",
+      "duration": 150,
+      "price": 150,
+      "category": "hair",
+      "businessTypes": ["hair-salon"],
+      "requirements": ["consultation"],
+      "addOns": ["cut", "styling", "toner"]
+    },
+    "blowout": {
+      "name": "Blowout",
+      "description": "Professional hair drying and styling",
+      "duration": 45,
+      "price": 35,
+      "category": "hair",
+      "businessTypes": ["hair-salon"],
+      "addOns": ["curl", "straightening"]
+    },
+    "hair-treatment": {
+      "name": "Hair Treatment",
+      "description": "Deep conditioning and repair treatment",
+      "duration": 30,
+      "price": 40,
+      "category": "hair",
+      "businessTypes": ["hair-salon"],
+      "addOns": ["styling"]
+    },
+    "facial": {
+      "name": "Facial",
+      "description": "Deep cleansing facial treatment",
+      "duration": 60,
+      "price": 80,
+      "category": "skincare",
+      "businessTypes": ["beauty-salon", "spa"],
+      "addOns": ["extraction", "mask", "serum"]
+    },
+    "makeup": {
+      "name": "Makeup Application",
+      "description": "Professional makeup application",
+      "duration": 45,
+      "price": 60,
+      "category": "beauty",
+      "businessTypes": ["beauty-salon"],
+      "addOns": ["lashes", "contouring"]
+    },
+    "eyebrow-shaping": {
+      "name": "Eyebrow Shaping",
+      "description": "Professional eyebrow shaping and grooming",
+      "duration": 30,
+      "price": 25,
+      "category": "beauty",
+      "businessTypes": ["beauty-salon"],
+      "addOns": ["tinting", "lamination"]
+    },
+    "eyelash-extension": {
+      "name": "Eyelash Extensions",
+      "description": "Individual eyelash extension application",
+      "duration": 120,
+      "price": 120,
+      "category": "beauty",
+      "businessTypes": ["beauty-salon"],
+      "addOns": ["refill", "removal"]
+    },
+    "manicure": {
+      "name": "Manicure",
+      "description": "Complete nail care and polish",
+      "duration": 45,
+      "price": 30,
+      "category": "nails",
+      "businessTypes": ["nail-salon", "beauty-salon", "spa"],
+      "addOns": ["gel-polish", "nail-art", "hand-treatment"]
+    },
+    "pedicure": {
+      "name": "Pedicure",
+      "description": "Complete foot care and polish",
+      "duration": 60,
+      "price": 40,
+      "category": "nails",
+      "businessTypes": ["nail-salon", "beauty-salon", "spa"],
+      "addOns": ["gel-polish", "callus-removal", "foot-treatment"]
+    },
+    "gel-polish": {
+      "name": "Gel Polish",
+      "description": "Long-lasting gel nail polish",
+      "duration": 30,
+      "price": 20,
+      "category": "nails",
+      "businessTypes": ["nail-salon", "beauty-salon"],
+      "addOns": ["nail-art", "french-tips"]
+    },
+    "nail-art": {
+      "name": "Nail Art",
+      "description": "Creative nail design and decoration",
+      "duration": 45,
+      "price": 35,
+      "category": "nails",
+      "businessTypes": ["nail-salon", "beauty-salon"],
+      "addOns": ["gems", "foil", "3d-design"]
+    },
+    "acrylic-nails": {
+      "name": "Acrylic Nails",
+      "description": "Acrylic nail extensions",
+      "duration": 90,
+      "price": 55,
+      "category": "nails",
+      "businessTypes": ["nail-salon"],
+      "addOns": ["nail-art", "gel-overlay"]
+    },
+    "massage": {
+      "name": "Relaxation Massage",
+      "description": "Full body relaxation massage",
+      "duration": 60,
+      "price": 90,
+      "category": "wellness",
+      "businessTypes": ["spa", "massage-therapy"],
+      "addOns": ["aromatherapy", "hot-stones"]
+    },
+    "swedish-massage": {
+      "name": "Swedish Massage",
+      "description": "Traditional Swedish massage technique",
+      "duration": 60,
+      "price": 85,
+      "category": "wellness",
+      "businessTypes": ["massage-therapy", "spa"],
+      "addOns": ["aromatherapy"]
+    },
+    "deep-tissue": {
+      "name": "Deep Tissue Massage",
+      "description": "Therapeutic deep tissue massage",
+      "duration": 60,
+      "price": 100,
+      "category": "wellness",
+      "businessTypes": ["massage-therapy", "spa"],
+      "addOns": ["hot-stones"]
+    },
+    "hot-stone": {
+      "name": "Hot Stone Massage",
+      "description": "Relaxing hot stone therapy",
+      "duration": 90,
+      "price": 120,
+      "category": "wellness",
+      "businessTypes": ["spa", "massage-therapy"],
+      "addOns": ["aromatherapy"]
+    },
+    "body-treatment": {
+      "name": "Body Treatment",
+      "description": "Full body exfoliation and moisturizing",
+      "duration": 75,
+      "price": 110,
+      "category": "wellness",
+      "businessTypes": ["spa"],
+      "addOns": ["wrap", "scrub"]
+    },
+    "beard-trim": {
+      "name": "Beard Trim",
+      "description": "Professional beard trimming and shaping",
+      "duration": 30,
+      "price": 25,
+      "category": "grooming",
+      "businessTypes": ["barbershop"],
+      "addOns": ["beard-oil", "styling"]
+    },
+    "shave": {
+      "name": "Traditional Shave",
+      "description": "Classic hot towel shave",
+      "duration": 45,
+      "price": 35,
+      "category": "grooming",
+      "businessTypes": ["barbershop"],
+      "addOns": ["beard-trim", "aftershave"]
+    },
+    "consultation": {
+      "name": "Consultation",
+      "description": "Professional consultation and assessment",
+      "duration": 30,
+      "price": 25,
+      "category": "consultation",
+      "businessTypes": ["medical-clinic", "fitness-studio", "tattoo-studio", "dental-clinic"],
+      "addOns": ["treatment-plan"]
+    },
+    "checkup": {
+      "name": "Health Checkup",
+      "description": "General health examination",
+      "duration": 45,
+      "price": 80,
+      "category": "medical",
+      "businessTypes": ["medical-clinic", "dental-clinic"],
+      "addOns": ["lab-tests", "x-ray"]
+    },
+    "personal-training": {
+      "name": "Personal Training",
+      "description": "One-on-one fitness training session",
+      "duration": 60,
+      "price": 75,
+      "category": "fitness",
+      "businessTypes": ["fitness-studio"],
+      "addOns": ["nutrition-plan", "assessment"]
+    },
+    "group-class": {
+      "name": "Group Fitness Class",
+      "description": "Group fitness training session",
+      "duration": 45,
+      "price": 25,
+      "category": "fitness",
+      "businessTypes": ["fitness-studio"],
+      "maxParticipants": 15
+    },
+    "small-tattoo": {
+      "name": "Small Tattoo",
+      "description": "Small tattoo (under 3 inches)",
+      "duration": 60,
+      "price": 100,
+      "category": "tattoo",
+      "businessTypes": ["tattoo-studio"],
+      "requirements": ["consultation", "deposit"],
+      "addOns": ["aftercare-kit"]
+    },
+    "large-tattoo": {
+      "name": "Large Tattoo",
+      "description": "Large tattoo session",
+      "duration": 240,
+      "price": 400,
+      "category": "tattoo",
+      "businessTypes": ["tattoo-studio"],
+      "requirements": ["consultation", "deposit"],
+      "addOns": ["aftercare-kit", "touch-up"]
+    },
+    "piercing": {
+      "name": "Body Piercing",
+      "description": "Professional body piercing service",
+      "duration": 30,
+      "price": 50,
+      "category": "piercing",
+      "businessTypes": ["tattoo-studio"],
+      "addOns": ["jewelry", "aftercare-solution"]
+    },
+    "cleaning": {
+      "name": "Dental Cleaning",
+      "description": "Professional teeth cleaning",
+      "duration": 60,
+      "price": 120,
+      "category": "dental",
+      "businessTypes": ["dental-clinic"],
+      "addOns": ["fluoride", "polish"]
+    },
+    "filling": {
+      "name": "Dental Filling",
+      "description": "Tooth cavity filling",
+      "duration": 45,
+      "price": 150,
+      "category": "dental",
+      "businessTypes": ["dental-clinic"],
+      "addOns": ["crown", "sealant"]
+    },
+    "whitening": {
+      "name": "Teeth Whitening",
+      "description": "Professional teeth whitening treatment",
+      "duration": 90,
+      "price": 300,
+      "category": "dental",
+      "businessTypes": ["dental-clinic"],
+      "addOns": ["take-home-kit"]
+    }
+  }
+}

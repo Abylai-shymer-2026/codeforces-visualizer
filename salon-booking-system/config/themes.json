@@ -1,0 +1,99 @@
+{
+  "themes": {
+    "elegant": {
+      "name": "Elegant",
+      "description": "Sophisticated and luxurious design",
+      "colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#A78BFA",
+        "accent": "#F3E8FF",
+        "background": "#FFFFFF",
+        "surface": "#F8FAFC",
+        "text": "#1F2937",
+        "textSecondary": "#6B7280"
+      },
+      "fonts": {
+        "heading": "Playfair Display",
+        "body": "Inter"
+      },
+      "borderRadius": "0.75rem",
+      "shadows": "soft"
+    },
+    "modern": {
+      "name": "Modern",
+      "description": "Clean and contemporary design",
+      "colors": {
+        "primary": "#3B82F6",
+        "secondary": "#60A5FA",
+        "accent": "#DBEAFE",
+        "background": "#FFFFFF",
+        "surface": "#F1F5F9",
+        "text": "#0F172A",
+        "textSecondary": "#475569"
+      },
+      "fonts": {
+        "heading": "Poppins",
+        "body": "Inter"
+      },
+      "borderRadius": "0.5rem",
+      "shadows": "crisp"
+    },
+    "warm": {
+      "name": "Warm",
+      "description": "Cozy and inviting design",
+      "colors": {
+        "primary": "#F59E0B",
+        "secondary": "#FCD34D",
+        "accent": "#FEF3C7",
+        "background": "#FFFBEB",
+        "surface": "#FEF7CD",
+        "text": "#92400E",
+        "textSecondary": "#B45309"
+      },
+      "fonts": {
+        "heading": "Merriweather",
+        "body": "Open Sans"
+      },
+      "borderRadius": "1rem",
+      "shadows": "warm"
+    },
+    "minimalist": {
+      "name": "Minimalist",
+      "description": "Simple and clean design",
+      "colors": {
+        "primary": "#1F2937",
+        "secondary": "#4B5563",
+        "accent": "#F3F4F6",
+        "background": "#FFFFFF",
+        "surface": "#F9FAFB",
+        "text": "#111827",
+        "textSecondary": "#6B7280"
+      },
+      "fonts": {
+        "heading": "Inter",
+        "body": "Inter"
+      },
+      "borderRadius": "0.25rem",
+      "shadows": "minimal"
+    },
+    "vibrant": {
+      "name": "Vibrant",
+      "description": "Bold and energetic design",
+      "colors": {
+        "primary": "#EC4899",
+        "secondary": "#F472B6",
+        "accent": "#FCE7F3",
+        "background": "#FFFFFF",
+        "surface": "#FDF2F8",
+        "text": "#831843",
+        "textSecondary": "#BE185D"
+      },
+      "fonts": {
+        "heading": "Montserrat",
+        "body": "Nunito Sans"
+      },
+      "borderRadius": "0.75rem",
+      "shadows": "vibrant"
+    }
+  }
+}

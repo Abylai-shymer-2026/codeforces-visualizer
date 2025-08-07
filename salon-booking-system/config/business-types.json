@@ -1,0 +1,144 @@
+{
+  "businessTypes": {
+    "hair-salon": {
+      "name": "Hair Salon",
+      "icon": "✂️",
+      "description": "Professional hair styling and care services",
+      "defaultServices": [
+        "haircut", "hair-color", "highlights", "blowout", "hair-treatment", "styling"
+      ],
+      "defaultDuration": 60,
+      "theme": {
+        "primary": "#8B5CF6",
+        "secondary": "#A78BFA",
+        "accent": "#F3E8FF"
+      }
+    },
+    "beauty-salon": {
+      "name": "Beauty Salon",
+      "icon": "💄",
+      "description": "Complete beauty and wellness services",
+      "defaultServices": [
+        "facial", "makeup", "eyebrow-shaping", "eyelash-extension", "manicure", "pedicure"
+      ],
+      "defaultDuration": 45,
+      "theme": {
+        "primary": "#EC4899",
+        "secondary": "#F472B6",
+        "accent": "#FCE7F3"
+      }
+    },
+    "nail-salon": {
+      "name": "Nail Salon",
+      "icon": "💅",
+      "description": "Professional nail care and art services",
+      "defaultServices": [
+        "manicure", "pedicure", "gel-polish", "nail-art", "acrylic-nails", "nail-repair"
+      ],
+      "defaultDuration": 30,
+      "theme": {
+        "primary": "#F59E0B",
+        "secondary": "#FCD34D",
+        "accent": "#FEF3C7"
+      }
+    },
+    "spa": {
+      "name": "Spa & Wellness",
+      "icon": "🧘‍♀️",
+      "description": "Relaxation and wellness treatments",
+      "defaultServices": [
+        "massage", "body-treatment", "facial", "aromatherapy", "hot-stone", "couples-massage"
+      ],
+      "defaultDuration": 90,
+      "theme": {
+        "primary": "#10B981",
+        "secondary": "#34D399",
+        "accent": "#D1FAE5"
+      }
+    },
+    "barbershop": {
+      "name": "Barbershop",
+      "icon": "💈",
+      "description": "Traditional men's grooming services",
+      "defaultServices": [
+        "haircut", "beard-trim", "shave", "mustache-trim", "hair-wash", "styling"
+      ],
+      "defaultDuration": 45,
+      "theme": {
+        "primary": "#DC2626",
+        "secondary": "#EF4444",
+        "accent": "#FEE2E2"
+      }
+    },
+    "medical-clinic": {
+      "name": "Medical Clinic",
+      "icon": "🏥",
+      "description": "Medical and healthcare services",
+      "defaultServices": [
+        "consultation", "checkup", "treatment", "procedure", "follow-up", "screening"
+      ],
+      "defaultDuration": 30,
+      "theme": {
+        "primary": "#3B82F6",
+        "secondary": "#60A5FA",
+        "accent": "#DBEAFE"
+      }
+    },
+    "fitness-studio": {
+      "name": "Fitness Studio",
+      "icon": "💪",
+      "description": "Personal training and fitness services",
+      "defaultServices": [
+        "personal-training", "group-class", "consultation", "fitness-assessment", "nutrition-coaching"
+      ],
+      "defaultDuration": 60,
+      "theme": {
+        "primary": "#F97316",
+        "secondary": "#FB923C",
+        "accent": "#FED7AA"
+      }
+    },
+    "massage-therapy": {
+      "name": "Massage Therapy",
+      "icon": "👐",
+      "description": "Therapeutic massage services",
+      "defaultServices": [
+        "swedish-massage", "deep-tissue", "hot-stone", "prenatal-massage", "sports-massage", "reflexology"
+      ],
+      "defaultDuration": 60,
+      "theme": {
+        "primary": "#6366F1",
+        "secondary": "#818CF8",
+        "accent": "#E0E7FF"
+      }
+    },
+    "tattoo-studio": {
+      "name": "Tattoo Studio",
+      "icon": "🎨",
+      "description": "Professional tattoo and piercing services",
+      "defaultServices": [
+        "tattoo-consultation", "small-tattoo", "large-tattoo", "piercing", "tattoo-touch-up", "cover-up"
+      ],
+      "defaultDuration": 120,
+      "theme": {
+        "primary": "#1F2937",
+        "secondary": "#4B5563",
+        "accent": "#F3F4F6"
+      }
+    },
+    "dental-clinic": {
+      "name": "Dental Clinic",
+      "icon": "🦷",
+      "description": "Dental care and oral health services",
+      "defaultServices": [
+        "cleaning", "checkup", "filling", "root-canal", "crown", "whitening", "extraction"
+      ],
+      "defaultDuration": 45,
+      "theme": {
+        "primary": "#0EA5E9",
+        "secondary": "#38BDF8",
+        "accent": "#E0F2FE"
+      }
+    }
+  }
+}
