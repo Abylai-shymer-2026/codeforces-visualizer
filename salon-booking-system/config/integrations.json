@@ -1,0 +1,162 @@
+{
+  "integrations": {
+    "payments": {
+      "stripe": {
+        "name": "Stripe",
+        "description": "Accept credit cards and online payments",
+        "enabled": true,
+        "features": ["cards", "deposits", "subscriptions", "refunds"],
+        "currencies": ["USD", "EUR", "GBP", "CAD", "AUD"],
+        "webhookEvents": ["payment_intent.succeeded", "payment_intent.payment_failed"]
+      },
+      "paypal": {
+        "name": "PayPal",
+        "description": "Accept PayPal payments",
+        "enabled": true,
+        "features": ["paypal", "deposits"],
+        "currencies": ["USD", "EUR", "GBP", "CAD", "AUD"]
+      },
+      "square": {
+        "name": "Square",
+        "description": "Accept payments with Square",
+        "enabled": false,
+        "features": ["cards", "in-person"],
+        "currencies": ["USD", "CAD", "GBP", "AUD"]
+      }
+    },
+    "communications": {
+      "twilio": {
+        "name": "Twilio",
+        "description": "SMS notifications and reminders",
+        "enabled": true,
+        "features": ["sms", "voice", "whatsapp"],
+        "templates": {
+          "appointment_reminder": "Hi {customerName}! This is a reminder about your {serviceName} appointment tomorrow at {time} with {staffName}. Reply STOP to opt out.",
+          "appointment_confirmation": "Your {serviceName} appointment is confirmed for {date} at {time} with {staffName}. See you then!",
+          "appointment_cancelled": "Your appointment on {date} at {time} has been cancelled. Please reschedule at your convenience."
+        }
+      },
+      "sendgrid": {
+        "name": "SendGrid",
+        "description": "Email notifications and marketing",
+        "enabled": true,
+        "features": ["transactional", "marketing", "templates"],
+        "templates": {
+          "welcome": "d-welcome-template-id",
+          "appointment_confirmation": "d-confirmation-template-id",
+          "appointment_reminder": "d-reminder-template-id",
+          "receipt": "d-receipt-template-id"
+        }
+      },
+      "whatsapp": {
+        "name": "WhatsApp Business",
+        "description": "WhatsApp messaging and notifications",
+        "enabled": false,
+        "features": ["messages", "templates", "media"],
+        "templates": {
+          "appointment_reminder": "appointment_reminder_template",
+          "appointment_confirmation": "appointment_confirmation_template"
+        }
+      }
+    },
+    "calendar": {
+      "google": {
+        "name": "Google Calendar",
+        "description": "Sync appointments with Google Calendar",
+        "enabled": true,
+        "features": ["two-way-sync", "notifications", "availability"],
+        "scopes": ["calendar.events", "calendar.readonly"]
+      },
+      "outlook": {
+        "name": "Microsoft Outlook",
+        "description": "Sync appointments with Outlook Calendar",
+        "enabled": false,
+        "features": ["two-way-sync", "notifications"],
+        "scopes": ["calendars.readwrite"]
+      },
+      "apple": {
+        "name": "Apple Calendar",
+        "description": "Sync appointments with Apple Calendar",
+        "enabled": false,
+        "features": ["export", "import"],
+        "formats": ["ics"]
+      }
+    },
+    "reviews": {
+      "google": {
+        "name": "Google Reviews",
+        "description": "Collect and manage Google reviews",
+        "enabled": true,
+        "features": ["review-requests", "monitoring", "responses"],
+        "automation": {
+          "request_delay": 24,
+          "request_conditions": ["completed_appointment", "positive_feedback"]
+        }
+      },
+      "yelp": {
+        "name": "Yelp",
+        "description": "Manage Yelp reviews and business profile",
+        "enabled": false,
+        "features": ["monitoring", "responses"]
+      },
+      "facebook": {
+        "name": "Facebook Reviews",
+        "description": "Collect Facebook page reviews",
+        "enabled": false,
+        "features": ["review-requests", "monitoring"]
+      }
+    },
+    "marketing": {
+      "mailchimp": {
+        "name": "Mailchimp",
+        "description": "Email marketing and automation",
+        "enabled": false,
+        "features": ["lists", "campaigns", "automation", "analytics"],
+        "sync": ["customers", "appointments", "preferences"]
+      },
+      "facebook_ads": {
+        "name": "Facebook Ads",
+        "description": "Facebook and Instagram advertising",
+        "enabled": false,
+        "features": ["pixel", "conversions", "audiences"],
+        "events": ["appointment_booked", "service_completed", "customer_registered"]
+      },
+      "google_ads": {
+        "name": "Google Ads",
+        "description": "Google advertising and analytics",
+        "enabled": false,
+        "features": ["conversions", "remarketing", "analytics"],
+        "events": ["appointment_booked", "service_completed"]
+      }
+    },
+    "pos": {
+      "square": {
+        "name": "Square POS",
+        "description": "Point of sale integration",
+        "enabled": false,
+        "features": ["inventory", "payments", "receipts", "analytics"]
+      },
+      "shopify": {
+        "name": "Shopify POS",
+        "description": "Shopify point of sale",
+        "enabled": false,
+        "features": ["inventory", "products", "orders"]
+      }
+    },
+    "analytics": {
+      "google_analytics": {
+        "name": "Google Analytics",
+        "description": "Website and booking analytics",
+        "enabled": true,
+        "features": ["events", "conversions", "demographics"],
+        "events": ["appointment_booked", "service_viewed", "staff_selected"]
+      },
+      "mixpanel": {
+        "name": "Mixpanel",
+        "description": "Advanced user analytics",
+        "enabled": false,
+        "features": ["events", "funnels", "cohorts", "retention"]
+      }
+    }
+  }
+}
